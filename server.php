@@ -21,8 +21,10 @@
     $parametros = array(
         'uri' => 'localhost:5000/server.php',
     );
+
     //o null é do wsdl
     $server = new SoapServer (null, $parametros);
+    
     $server->setObject(new server());
     
     //serve para pegar as requisições da URL

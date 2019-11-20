@@ -4,8 +4,8 @@ cliente = SOAPProxy('http://localhost:5000/server.php')
 
 
 
-a = int(input("Digite o valor de a:"))
-b = int(input("Digite o valor de b:"))
+a = int(input("Digite o valor de a: "))
+b = int(input("Digite o valor de b: "))
 
 # a = 3
 # b=2
